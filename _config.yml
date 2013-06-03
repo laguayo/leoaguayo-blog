@@ -4,7 +4,7 @@
 
 url: http://leoaguayo.com
 title: Leo Aguayo's Blog
-subtitle: "Computer Science, Cars, Bikes and Everything In Between"
+subtitle: "I rant and I rant..."
 author: Leo Ivan Aguayo
 simple_search: http://google.com/search
 description: "This is a blog about tech, cars, and anything else I find useful, maybe you can find use too."
@@ -80,12 +80,12 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: leo.ivan.aguayo@gmail.com
+googleplus_user: 107147751431192576019
 googleplus_hidden: false
 
 #Pocket RSS
 rss_feed_url: http://getpocket.com/users/leoaguayo/feed/unread
-rss_feed_title: "My Pocket TODO"
+rss_feed_title: "My Pocket Todo"
 rss_feed_include_link_to_feed: true
 rss_feed_link_title: "My Pocket Feed"
 
@@ -98,8 +98,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: leoaguayoblog
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id: UA-41159342-1
