@@ -6,6 +6,10 @@ comments: true
 categories: ['brz', 'subaru', 'cars', 'code', 'python', 'app engine']
 published: false
 ---
+<a href="#Day1">Day 1</a>
+<a href="#Day2">Day 2</a>
+<a href="#Day3">Day 3</a>
+
 <div>I recently bought a new car.{% emoji smile %} But that’s not that awesome many people buy cars everyday, what makes this occasion special you ask? I bought a first year model made in collaboration by two amazing manufacturers, Toyota and Subaru. </div>
 <div>
 {% img /images/brz-render-passenger.png BRZ DGM Render %}
@@ -28,7 +32,7 @@ Also conveniently I wanted an excuse to learn a new language, a fellow colleague
 
 <!-- more -->
 
-<h2>Day 1: Simple scrape, BeautifulSoup and CLI</h2>
+<h2 id="Day1">Day 1: Simple scrape, BeautifulSoup and CLI</h2>
 
 I was surprised that I was able to learn basic python and the scraping library <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> enough to put a script together in the span of 3 hours. 
 
@@ -53,7 +57,13 @@ def printCars( mylist ):
 						print('\t6-Speed Automatic<============AUTOMATIC')	
 				elif '$' in string:
 						print('\t' + string)						
-				elif string not in ('VIN:','More','...',':','Adjusted Price', 'Get ePrice', 'Engine:', 'H-4 cyl', ',', 'Drive Line:','RWD', 'Transmission:', 'Interior Color:', 'Dark Gray', 'Model Code:', 'Details', '2.9% Financing','Watch Video', 'Compare','Compare Selected', 'View Details', 'Manufacturer Offer:'):
+				elif string not in ('VIN:','More','...',':','Adjusted Price', 
+				'Get ePrice', 'Engine:', 'H-4 cyl', ',', 
+				'Drive Line:','RWD', 'Transmission:', 
+				'Interior Color:', 'Dark Gray', 'Model Code:', 
+				'Details', '2.9% Financing','Watch Video', 
+				'Compare','Compare Selected', 
+				'View Details', 'Manufacturer Offer:'):
 						print('\t' + string)
 
 	return
@@ -118,13 +128,11 @@ So now I have a basic command line script I can run that will show me all the de
 
 Then I had a second thought this would be easier as a service or a running webapp independent of my local computer. Being an Java App Engine Developer, it would be easiest for me to port my python script to a python App Engine instance, that was the start of day 2.
 
-<h2>Day 2: Re-Learned App Engine, Webapp2, Jinja2 contemplated Django</h2>
+<h2 id="Day2">Day 2: Re-Learned App Engine, Webapp2, Jinja2 contemplated Django</h2>
 
-App Engine in Python was a completely massive task, especially since I was working on this project on my free time after and before work. I not only learned App Engine’s Python quirks I also gained a deeper understanding of python and its modules, classes, list, sets and dictionary data structures. 
+App Engine in Python was a completely massive task, especially since I was working on this project on my free time after and before work. I not only learned App Engine’s Python quirks I also gained a deeper understanding of python and its modules, classes, <a href="http://docs.python.org/2/tutorial/datastructures.html">list, sets and dictionary data structures.</a> 
 
-"Add tutorial link for python here"
-
-I also learned about app engine framework webapp2 and how makes it easy to put together restful application fairly quickly. I then turned to use jinja2 as a quick markup template parser for generating content on the fly. I last contemplated Django but I felt the learning curve was too steep, maybe I was wrong.
+I also learned about app engine framework webapp2 and how makes it easy to put together restful application fairly quickly. I then turned to use jinja2 as a quick markup template parser for generating content on the fly. Lastly I contemplated Django but I felt the learning curve was too steep, maybe I was wrong.
 
 I planned out that I would have a 3 main classes, main.py would host all page navigation between the car list to the dealer list and editing each individual dealer. I would put all my data processing in my DataProcesses.py and last I would define all my entities in Entities.py so all schema changes were declared in one place. 
 
@@ -137,7 +145,7 @@ After this I began using Git Version Control. Most of this is documented in the 
 You can browse the code from the <a href="https://github.com/laguayo/brz-scraps/tree/0df03b9e49ce08fb7b25912a8f592ef382164ffb">initial commit</a> on github, it's not very pretty I made more robust changes in the later commits.
 
 
-<h2>Day 3: Put it all together this is what we have.</h2>
+<h2 id="Day3">Day 3: Put it all together this is what we have.</h2>
 
 After day 3 I had a list of dealers, a list of cars and some basic bootstrap and a few days later I added a js data table that could sort and filter the list of cars. Through the span of that week I would tweak little things here and there. I managed to get my task up and running.
 
@@ -169,7 +177,8 @@ def parse_car(self, car_str, url):
 						else:
 							desc_dict[k] = s
 			except (ValueError, TypeError):
-				logging.error('Error Parsing Car line Description %s ', car_str.find(class_='description'))
+				logging.error('Error Parsing Car line Description %s ', 
+					car_str.find(class_='description'))
 				return
 			logging.info('Car Description dict %s', desc_dict)
 			if 'Transmission' in desc_dict:
@@ -221,9 +230,10 @@ After running the program for a week I started calling dealerships and even with
 
 Monday May 13th, after giving up for another 2 weeks, I was looking over my app engine logs and I noticed my script would hit a bug on one of the latest dealers I had added to the list, I fixed the bug re-deploy and boom their it was the car I was looking for sitting in a local dealer nearby. I called the dealer immediately and within the next few hours I was signing my life away.
 
-<h3>Day 5 Presentable tweaks</h3>
+<h3>Last Day: Presentable tweaks</h3>
 
 After acquiring my car I knew I wanted to tell the world about my story so I added more user admin features to limit people who could access and edit parts of the site in case others want to add more dealers to the scraping script.
 
 Github Page https://github.com/laguayo/brz-scraps
+
 App Engine Link: http://brz-scraps.appspot.com
