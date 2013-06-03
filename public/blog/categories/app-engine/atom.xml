@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: app engine | Leo Aguayo's Blog]]></title>
-  <link href="http://leoaguayo.com/blog/categories/app-engine/atom.xml" rel="self"/>
-  <link href="http://leoaguayo.com/"/>
-  <updated>2013-06-02T22:49:38-07:00</updated>
-  <id>http://leoaguayo.com/</id>
+  <link href="http://www.leoaguayo.com//blog/categories/app-engine/atom.xml" rel="self"/>
+  <link href="http://www.leoaguayo.com//"/>
+  <updated>2013-06-03T02:14:31-07:00</updated>
+  <id>http://www.leoaguayo.com//</id>
   <author>
     <name><![CDATA[Leo Ivan Aguayo]]></name>
     
@@ -15,14 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[BRZ Scraper]]></title>
-    <link href="http://leoaguayo.com/blog/2013/05/24/brz-scraper/"/>
+    <link href="http://www.leoaguayo.com//blog/2013/05/24/brz-scraper/"/>
     <updated>2013-05-24T14:12:00-07:00</updated>
-    <id>http://leoaguayo.com/blog/2013/05/24/brz-scraper</id>
-    <content type="html"><![CDATA[<p><a href="#Day1">Day 1</a>
-<a href="#Day2">Day 2</a>
-<a href="#Day3">Day 3</a></p>
-
-<div>I recently bought a new car.<i class='emoji smile'></i> But that’s not that awesome many people buy cars everyday, what makes this occasion special you ask? I bought a first year model made in collaboration by two amazing manufacturers, Toyota and Subaru. </div>
+    <id>http://www.leoaguayo.com//blog/2013/05/24/brz-scraper</id>
+    <content type="html"><![CDATA[<div>I recently bought a new car.<i class='emoji smile'></i> But that’s not that awesome many people buy cars everyday, what makes this occasion special you ask? I bought a first year model made in collaboration by two amazing manufacturers, Toyota and Subaru. </div>
 
 
 <div>
@@ -276,7 +272,7 @@ def parse_car(self, car_str, url):</p>
 <h2>The End...</h2>
 
 
-<p><a href="http://leoaguayo.com/images/brz-scraps.png"><img class="center" src="/images/brz-scraps.png" width="650" height="415" title="BRZ Scraper" ></a>
+<p><a href="http://www.leoaguayo.com//images/brz-scraps.png"><img class="center" src="/images/brz-scraps.png" width="650" height="415" title="BRZ Scraper" ></a>
 If you skipped to the end, quick note I made a program that looked up all dealerships inventory and scraped their inventory so I can look up dealers with my prefferred model and trim at atleast basic price, without markups.</p>
 
 <p>After running the program for a week I started calling dealerships and even with all the code in the world, it wasn&rsquo;t enough. Some dealers would advertise MSRP online and then when you called or came in there would be a $5000 dollar markup sticker next to the car. So I let the program sit. I finally made a few plans to go down to Southern California to pick up my car in a few weeks once some dealers got their shipments in from Subaru.</p>
