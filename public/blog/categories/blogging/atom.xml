@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blogging | Leo Aguayo's Blog]]></title>
-  <link href="http://leoaguayo.com/blog/categories/blogging/atom.xml" rel="self"/>
-  <link href="http://leoaguayo.com/"/>
-  <updated>2013-06-02T22:49:38-07:00</updated>
-  <id>http://leoaguayo.com/</id>
+  <link href="http://www.leoaguayo.com//blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://www.leoaguayo.com//"/>
+  <updated>2013-06-03T02:10:36-07:00</updated>
+  <id>http://www.leoaguayo.com//</id>
   <author>
     <name><![CDATA[Leo Ivan Aguayo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hi Everyone]]></title>
-    <link href="http://leoaguayo.com/blog/2013/05/23/hi-everyone/"/>
+    <link href="http://www.leoaguayo.com//blog/2013/05/23/hi-everyone/"/>
     <updated>2013-05-23T12:02:00-07:00</updated>
-    <id>http://leoaguayo.com/blog/2013/05/23/hi-everyone</id>
+    <id>http://www.leoaguayo.com//blog/2013/05/23/hi-everyone</id>
     <content type="html"><![CDATA[<p>Obligatory Hello World, how could you be a developer and not do hello world at the start of something.</p>
 ]]></content>
   </entry>

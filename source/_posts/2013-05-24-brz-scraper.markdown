@@ -6,10 +6,6 @@ comments: true
 categories: ['brz', 'subaru', 'cars', 'code', 'python', 'app engine']
 published: false
 ---
-<a href="#Day1">Day 1</a>
-<a href="#Day2">Day 2</a>
-<a href="#Day3">Day 3</a>
-
 <div>I recently bought a new car.{% emoji smile %} But that’s not that awesome many people buy cars everyday, what makes this occasion special you ask? I bought a first year model made in collaboration by two amazing manufacturers, Toyota and Subaru. </div>
 <div>
 {% img /images/brz-render-passenger.png BRZ DGM Render %}
