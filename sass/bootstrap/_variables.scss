@@ -12,7 +12,7 @@
 $black:                 #000 !default;
 $grayDarker:            #222 !default;
 $grayDark:              #333 !default;
-$gray:                  #555 !default;
+$gray:                  #666 !default;
 $grayLight:             #999 !default;
 $grayLighter:           #eee !default;
 $white:                 #fff !default;
@@ -33,24 +33,24 @@ $purple:                #7a43b6 !default;
 // Scaffolding
 // -------------------------
 $bodyBackground:        $white !default;
-$textColor:             $grayDark !default;
+$textColor:             $gray !default;
 
 
 // Links
 // -------------------------
-$linkColor:             #08c !default;
+$linkColor:             #09c !default;
 $linkColorHover:        darken($linkColor, 15%) !default;
 
 
 // Typography
 // -------------------------
-$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sansFontFamily:        "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
-$baseFontSize:          14px !default;
+$baseFontSize:          15px !default;
 $baseFontFamily:        $sansFontFamily !default;
-$baseLineHeight:        20px !default;
+$baseLineHeight:        21px !default;
 $altFontFamily:         $serifFontFamily !default;
 
 $headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
@@ -172,7 +172,7 @@ $horizontalComponentOffset:       180px !default;
 
 // Wells
 // -------------------------
-$wellBackground:                  #f5f5f5 !default;
+$wellBackground:                  #eee !default;
 
 
 // Navbar
@@ -195,12 +195,12 @@ $navbarLinkBackgroundActive:      darken($navbarBackground, 5%) !default;
 $navbarBrandColor:                $navbarLinkColor !default;
 
 // Inverted navbar
-$navbarInverseBackground:                #111111 !default;
-$navbarInverseBackgroundHighlight:       #222222 !default;
-$navbarInverseBorder:                    #252525 !default;
+$navbarInverseBackground:                #606670 !default;
+$navbarInverseBackgroundHighlight:       #78808b !default;
+$navbarInverseBorder:                    #3d4147 !default;
 
-$navbarInverseText:                      $grayLight !default;
-$navbarInverseLinkColor:                 $grayLight !default;
+$navbarInverseText:                      #CCC !default;
+$navbarInverseLinkColor:                 #CCC !default;
 $navbarInverseLinkColorHover:            $white !default;
 $navbarInverseLinkColorActive:           $navbarInverseLinkColorHover !default;
 $navbarInverseLinkBackgroundHover:       transparent !default;
