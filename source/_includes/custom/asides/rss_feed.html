@@ -1,11 +1,19 @@
 {% if site.rss_feed_url %}
-<section>
-  <h1>{{ site.rss_feed_title }}</h1>
-  <ul id="rss_feed_linkroll">Fetching links...</ul>
-  {% if site.rss_feed_include_link_to_feed %}
-  <p><a href="{{ site.rss_feed_url }}">{{ site.rss_feed_link_title }} &raquo;</a></p>
-  {% endif %}
-</section>
+<div>
+  <section>
+    <ul id="header" class="nav nav-list">
+      <li class="nav-header">{{ site.rss_feed_title }}</li>
+      <ul id="rss_feed_linkroll" class="nav nav-list">
+        <li>Fetching links...</li>
+      </ul>
+      {% if site.rss_feed_include_link_to_feed %}
+      <li>
+        <p><a href="{{ site.rss_feed_url }}">{{ site.rss_feed_link_title }} &raquo;</a></p>
+      </li>
+      {% endif %}
+    </ul>
+  </section>
+</div>
 <script type="text/javascript">
   var linkroll = 'rss_feed_linkroll';
   var rss_feed_url = "http://rsstojson.herokuapp.com/?feed={{ site.rss_feed_url }}";
