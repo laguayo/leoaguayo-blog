@@ -39,12 +39,12 @@ rdiscount:
     - autolink
     - footnotes
     - smart
-pygments: false # default python pygments have been replaced by pygments.rb
+pygments: true # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_link: "More &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
 titlecase: true       # Converts page and post titles to titlecase
 
@@ -81,7 +81,7 @@ google_plus_one_size: medium
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
 googleplus_user: 107147751431192576019
-googleplus_hidden: false
+googleplus_hidden: true
 
 #Pocket RSS
 rss_feed_url: http://getpocket.com/users/leoaguayo/feed/unread
@@ -89,13 +89,6 @@ rss_feed_title: "My Pocket Todo"
 rss_feed_include_link_to_feed: true
 rss_feed_link_title: "My Pocket Feed"
 
-# Pinboard
-pinboard_user:
-pinboard_count: 3
-
-# Delicious
-delicious_user:
-delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: leoaguayoblog
