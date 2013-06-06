@@ -43,6 +43,7 @@ footer: true
 		<li>Update, maintained and repaired library loaner laptops as well as staff computers and provide IT services to the library as a whole. </li>
 		<li>Dealt with physical and software repair.</li>
 	</ul>
+	{% comment %}
 	<strong>Summer Counselor</strong>
 	<span class="large pull-right "><em>Coal Ron Lyceum</em></span>
 	<p>June 2006 – July 2008 Summer<span class="pull-right">Berkeley, CA</span></p>
@@ -50,9 +51,29 @@ footer: true
 		<li>Mentored, tutored, and supervised students as they attended college preparatory classes</li>
 		<li>Acted as official IT specialist, troubleshooted a vast amount of computers and improved the wireless network within the program facility, compared to previous summer.</li>
 	</ul>
+	{% endcomment %}
 </div>
 <div id="skills">	
-<h4>Skills:</h4>
+	<h4>Skills:</h4>
+	<ul>
+	<li><h5>Technical</h5></li>
+		<ul>
+			<li>Microsoft Windows, Mac OS X, Linux.</li>
+			<li>Experienced in Java, C, C++, Ruby, Python, Android SDK able to quickly learn new tools.</li>
+			<li>Taken courses in Networking, Algorithms, Operating Systems, Databases and Software Engineering.</li>
+			<li>Proficient in using Microsoft Office and Photoshop.</li>
+		</ul>
+	<li><h5>Volunteer</h5></li>
+		<ul>
+			<li>Founding President of local ACM Student Chapter at UC Merced</li>
+			<li>Experience working in a committee to organize events.</li>
+		</ul>
+	<li><h5>Other</h5></li>
+		<ul>
+			<li>Fluent in Spanish</li>
+		</ul>
+	</ul>
+
 </div>
 <div id="more-info">
 Linkedin
