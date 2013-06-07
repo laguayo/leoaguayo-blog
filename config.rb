@@ -1,4 +1,5 @@
 require 'sass-globbing'
+require 'sinatra'
 
 # Require any additional compass plugins here.
 project_type = :stand_alone
