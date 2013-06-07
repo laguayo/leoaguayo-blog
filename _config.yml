@@ -57,7 +57,7 @@ default_asides: [asides/recent_posts.html, custom/asides/rss_feed.html, asides/g
 # blog_index_asides:
 # post_asides:
 # page_asides:
-
+exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor"]
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
