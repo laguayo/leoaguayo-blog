@@ -1,2 +1,10 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+.shifted{
+	padding-left: 7px;
+	li {
+		padding-left: 10px;
+		margin-left: 10px;
+		line-height: 24px;
+	}
+}
