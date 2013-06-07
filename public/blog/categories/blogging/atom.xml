@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blogging | Leo Aguayo's Blog]]></title>
+  <link href="http://www.leoaguayo.com//blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://www.leoaguayo.com//"/>
+  <updated>2013-06-06T23:42:35-07:00</updated>
+  <id>http://www.leoaguayo.com//</id>
+  <author>
+    <name><![CDATA[Leo Ivan Aguayo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hi Everyone]]></title>
+    <link href="http://www.leoaguayo.com//blog/2013/05/23/hi-everyone/"/>
+    <updated>2013-05-23T12:02:00-07:00</updated>
+    <id>http://www.leoaguayo.com//blog/2013/05/23/hi-everyone</id>
+    <content type="html"><![CDATA[<p>Obligatory Hello World, how could you be a developer and not do hello world at the start of something.</p>
+]]></content>
+  </entry>
+  
+</feed>
