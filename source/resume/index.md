@@ -9,14 +9,14 @@ footer: true
 <div class="only-print" style="display: none;">
 	Leo Ivan Aguayo
 	</div>
-<div class="row" id="education">
+<div class="row-fluid" id="education">
 	<h4><em>Education</em></h4>
 	<p class="shifted">University of California, Merced 
 		<span class="text-center"><em> / Computer Software and Engineering</em></span>
 		<span class="muted pull-right">May 2011</span>
 	</p>
 </div>
-<div class="row"id="experience">
+<div class="row-fluid"id="experience">
 	<div class="resume-header"><h4><em>Experience</em></h4></div>
 	<div class="shifted">
 		<strong>Software Engineer / Release Manager</strong>
@@ -68,7 +68,7 @@ footer: true
 		</ul>
 		{% endcomment %}</div>
 </div>
-<div  class="row" id="skills">	
+<div  class="row-fluid" id="skills">	
 	<h4><em>Skills</em></h4>
 	<div class="shifted">
 		<div class="span6">
@@ -97,7 +97,7 @@ footer: true
 		</div>
 	</div>
 </div>
-<div class="row" id="extras">
+<div class="row-fluid" id="extras">
 	<a href="resume.pdf" target="_blank" class="btn print-preview" ><i class="icon-print"></i>|PDF</a>
 	<a class="btn" href="http://www.linkedin.com/pub/leo-ivan-aguayo/22/59b/301"><i class="icon-user"></i>|Linked In</a>
 	{% comment %}<a href="javascript:window.print()"class="btn print-preview" ><i class="icon-print"></i>Print Paper Version</a>{% endcomment %}
