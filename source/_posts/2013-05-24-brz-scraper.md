@@ -6,15 +6,16 @@ comments: true
 categories: ['brz', 'subaru', 'cars', 'code', 'python', 'app engine']
 published: false
 ---
-<div>I recently bought a new car.{% emoji smile %} But that’s not that awesome many people buy cars everyday, what makes this occasion special you ask? I bought a first year model made in collaboration by two amazing manufacturers, Toyota and Subaru. </div>
+<div>
+	I recently bought a new car. {% emoji smile %} I bought a first year model made in collaboration by two manufacturers, Toyota and Subaru. It's the Subaru BRZ, also known as Scion FR-S or Toyota 86 in Japan.
+</div>
 <div>
 {% img /images/brz-render-passenger.png BRZ DGM Render %}
 </div>
-It is the Subaru BRZ. Also known as Scion FR-S or Toyota GT-86 in Japan. Still not that great car just came out who cares...
 
-Its special because it drove me to learn python and then I saw it as a rite of passage as a developer that I would write software to find my dream car.
+It's special because it drove me to learn python and then I saw it as a rite of passage as a developer that I would write software to find my dream car.
 
-It all started when saw this car a few months ago driving by on my commute to work, once as an FR-S and then as a BRZ so I became curious. I did my research and when I learned the backstory, twin cars made by two different companies, I was drawn. The opportuntity arrived that my significant other and I would need a new car, how convenient right? We start car shopping one thing led to another and we decided on getting the BRZ. 
+A few months ago I saw this car driving by on my commute to work, once with Scion badges and then with Subaru badges so I became curious. I did my research and when I learned the backstory, twin cars made by two different companies, I was drawn. The opportuntity arrived that my significant other and I would need a new car, how convenient right? We start car shopping one thing led to another and we decided on getting the BRZ. 
 
 I started to shop around trying to find a good deal and learned this is a hard car to acquire at a fair price. Since it is it's first official year and it's so rare most dealers are marking up prices, or have no inventory.
 
@@ -22,9 +23,9 @@ Hmm what to do...I started to browse the internet and I noticed most Subaru deal
 
 {% img center /images/subaru-dealer.png 485 300 Subaru Dealer %}
 
-So my engineering mind went into hyperactive mode. I planned it out, I would just scrape all the Subaru dealers nearby or even in the same state and index all their inventory then just call up those that met my criteria and I would have my new car.
+I had a plan, I would just scrape all the Subaru dealers nearby or even in the same state and index all their inventory then just call up those that met my criteria and I would have my new car.
 
-Also conveniently I wanted an excuse to learn a new language, a fellow colleague once commented, {% blockquote %} if you want to scrape a site use python, it’s really easy{% endblockquote... %}So I did, I've never used python before so I decided why not learn python and find a new car all in one go and I did. This is where the coding starts, if you don't care skip ahead to the ending.
+Also conveniently I wanted an excuse to learn a new language, a fellow colleague once commented, {% blockquote %} if you want to scrape a site use python, it’s really easy{% endblockquote... %} I've never used python before so I decided why not learn python and find a new car all in one go and I did.
 
 <!-- more -->
 
@@ -120,7 +121,7 @@ OPENING :http://www.livermoresubaru.com/new-inventory/index.htm?model=BRZ&
 	…
 {% endhighlight %}
 
-So now I have a basic command line script I can run that will show me all the dealers with cars in their online inventory, useful to run a few times a day to see current inventory. Then I thought I should run this every so many minutes on a timer and then collect the data and send myself a notification, would be more useful. 
+I had a basic command line script I can run that will show me all the dealers with cars in their online inventory, useful to run a few times a day to see current inventory. Then I thought I should run this every so many minutes on a timer and then collect the data and send myself a notification, would be more useful. 
 
 Then I had a second thought this would be easier as a service or a running webapp independent of my local computer. Being an Java App Engine Developer, it would be easiest for me to port my python script to a python App Engine instance, that was the start of day 2.
 

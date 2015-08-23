@@ -24,16 +24,19 @@ footer: true
 		<p>September 2011 > <span class="soft-strong"><em>Present</em></span> <span class="pull-right">San Francisco, CA</span></p>
 		<ul>
 		<li>
-			Upgraded, documented and designed new REST APIs.
+			Used Javascript, GWT/Java and Spring to build new major features, to the client-server data model and RPC/REST Transport layer
 		</li>
 		<li>
-			Used GWT and Spring to build new major features, such as data model changes and client data exports.
+			Re-skinned entire Android Mobile App on a tight deadline.
+		</li>
+		<li>
+			Was intimately involved in holistic platform redesign, from concept to design and implementation.
 		</li>
 		<li>
 			Re-Designed our Git/Gerrit development workflow and transitioned our team from Trac to Jira optimizing our development process.
 		</li>
 		<li>
-			Used Selenium and Jenkins CI to build Integration test infrastructure.
+			Implemented fully automated deployments with Maven and Jenkins CI.
 		</li>
 		</ul>
 		<span class="soft-strong">Student Web Developer</span>
@@ -58,7 +61,7 @@ footer: true
 				Provided IT services to the library media rooms and computer labs.
 			</li>
 			<li>
-				Initiated a project to build Linux based public workstation, which improved reliability and performance.  
+				Initiated a project to build Linux based public workstation, which improved reliability and performance.
 			</li>
 		</ul>
 		{% comment %}
@@ -71,7 +74,7 @@ footer: true
 		</ul>
 		{% endcomment %}</div>
 </div>
-<div class="row-fluid" id="skills">	
+<div class="row-fluid" id="skills">
 	<h4><em>Skills</em></h4>
 	<div class="shifted">
 		<div class="span6">
@@ -81,16 +84,16 @@ footer: true
 						Windows, Mac OS X, Linux
 					</li>
 					<li>
-						Java, C, C++, Ruby, Python, Javascript
+						Java, C, C++, Python, Javascript, HTML5, CSS3, CoffeeScript, LESS, Sass
 					</li>
 					<li>
-						GWT, Spring, GAE, Android SDK, NoSQL, SQL, Google Services, MapReduce 
+						GWT, Spring, GAE, Android SDK, NoSQL, SQL, Google Cloud Platform, MapReduce, MySQL, PhoneGap
 					</li>
 					<li>
 						Studied Networking, Algorithms, Operating Systems, Databases and Software Engineering
 					</li>
 					<li>
-						SCRUM, UMLs and ERDs
+						SCRUM, UMLs, MVC, MVP and ERDs
 					</li>
 					<li>
 						Fluent in Spanish
@@ -101,7 +104,7 @@ footer: true
 			<h5 class="soft-strong">Volunteer</h5>
 				<ul>
 					<li>Founding President of ACM Student Chapter at UC Merced</li>
-					<li>Experience organizing events within a committee</li>
+					<li>Experience organizing community events</li>
 				</ul>
 		</div>
 	</div>
